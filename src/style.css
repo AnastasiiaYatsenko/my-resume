@@ -1,0 +1,197 @@
+body {
+  background-color: #fdf6fc;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #fdf6fc;
+}
+
+.main-content {
+  background-color: #fdf6fc;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 105px 90px;
+}
+
+.about {
+  margin-bottom: 40px;
+}
+
+.about-position{
+  font-weight: 25px;
+  font-size: 30px;
+  color: #000000;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.about-name {
+  font-weight: 50px;
+  font-size: 55px;
+  color: #000000;
+  margin-bottom: 35px;
+  margin-top: -80px;
+  text-align: center;
+}
+
+.about-description {
+  font-size: 20px;
+  color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.projects {
+  margin-bottom: 50px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 30px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.project-list {
+padding: 0;
+margin-left: 15px;
+}
+
+.project-item {
+  font-weight: bold;
+  font-size: 20px;
+  color: #000000;
+}
+
+.project,
+.project-link {
+  font-size: 20px;
+  color: black;
+  opacity: 0.9;
+}
+
+.project-link {
+  margin-left: 10px;
+}
+
+.work-position {
+  font-weight: bold;
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.organization {
+  font-weight: 30px;
+  font-size: 20px;
+  color: black;
+}
+
+.period {
+  font-weight: 600;
+  font-size: 18px;
+  color: black;
+  opacity: 0.8;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.line {
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000
+}
+
+.work-list {
+  padding: 0;
+  margin-left: 15px;
+}
+
+.work-list-item {
+  font-weight: 400;
+  font-size: 14px;
+  color: #595959;
+}
+
+.work {
+  margin-bottom: 40px;
+}
+
+.education-place {
+  font-size: 20px;
+  color: black;
+  margin-top: 12px;
+  margin-bottom: 5px;
+  font-weight: normal;
+}
+
+
+.sidebar {
+  background-color: #faebf4;
+  padding-top: 0;
+  width: 370px;
+}
+
+.photo {
+  width: 370px;
+  margin-bottom: 50px;
+}
+
+.contacts,
+.tech-skills,
+.soft-skills {
+  margin-left: 40px;
+}
+
+.contacts {
+margin-bottom: 50px;
+}
+
+
+.sidebar-title {
+  color: black;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.contact-type {
+  font-weight: 900;
+  font-size: 20px;
+  color: black;
+  margin-right: 5px;
+}
+
+.contact-link {
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.tech-skill-list {
+  color: black;
+  padding: 0;
+  margin-left: 17px;
+  font-size: 20px;
+}
+
+.tech-skills-item {
+  color: black;
+}
+
+.tech-skills-text {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media (max-width: 945px) {
+  .main {
+    width: 900px;
+  }
+}
